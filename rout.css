@@ -1,0 +1,150 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.divform
+{
+	
+	background-color: white;
+	width: 80%;
+	
+	border-radius: 20px;
+
+
+}
+
+
+.wrapper
+{
+	width: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	padding-right: 3%;
+	padding-left: 3%;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+
+
+input{
+	width: 80%;
+    height: 50px;
+
+}
+body
+{
+	background-color: #05486C
+}
+label
+{
+	display: inline-block;
+	padding-bottom: 10px;
+}
+input[type="submit"]
+{
+	-moz-box-shadow: inset 0px 1px 0px 0px #05486C;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #05486C;
+	box-shadow: inset 0px 1px 0px 0px #05486C;
+	background-color: #05486C;
+	border: 1px solid #05486C;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 20%;
+
+	margin-top:20px;
+	margin: 30px;
+     margin-left: 40%;
+	border-radius: 30px;
+}
+input[type="submit"]:hover {
+	
+	background-color:#05486ce6;
+}
+input[type="text"], input[type="phone"], input[type="email"]
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border-bottom: 1px solid #ddd;
+	border: solid 1px #ddd;
+    transition: border 0.3s linear;
+	background: transparent;
+	margin-bottom: 50px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 50px;
+}
+input[type="text"]:focus, input[type="phone"]:focus, input[type="email"]:focus
+{
+	border: 1px solid #05486C;
+	border-radius: 10px;
+	border-width: 2px;
+}
+
+/* resposive */
+@media screen and (max-width:960px)
+{
+  input[type="submit"]
+   {
+   	width: 25%;
+   	margin-left: 38%; 
+   }
+   .wrapper
+   {
+   	padding-top:20px; 
+   }
+}
+@media screen and (max-width:760px)
+{
+	 input[type="submit"]
+   {
+   	width: 35%;
+   	margin-left: 33%; 
+   }
+   .wrapper
+   {
+   	padding-top:20px; 
+   }
+
+}
+@media screen and (max-width: 480px)
+{
+   input[type="submit"]
+   {
+   	width: 50%;
+   	margin-left: 25%; 
+   }
+   .wrapper
+   {
+   	padding-top:20px; 
+   }
+}
+@media screen and (max-width: 1025px)
+{
+	.wrapper
+	{
+		height: 1066px;
+	}
+	input[type="text"], input[type="phone"], input[type="email"]
+	{
+		margin: 50px 0;
+	}
+	label
+	{
+		padding: 0;
+		margin: 0;
+	}
+}
